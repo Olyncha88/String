@@ -25,14 +25,14 @@ public class Doc {
         System.out.println(doc.toString().join("/", doc.toString().substring(5, 8), // толькл буквы ч/з /
                 doc. toString().substring(14, 17),
                 doc. toString().substring(19, 20),
-                doc. toString().substring(22, 23)));
+                doc. toString().substring(21, 22)));
     }
 
     public static void getLetUpp(String doc) {
         StringBuilder s4 = new StringBuilder(doc. toString().join("/", doc. toString().substring(5, 8),
                 doc. toString().substring(14, 17),
                 doc. toString().substring(19, 20),
-                doc. toString().substring(22, 23)));
+                doc. toString().substring(21, 22)));
         System.out.println("Letters: " + s4.toString().toUpperCase(Locale.ROOT)); // вывод в верх. регистре
     }
 
@@ -49,7 +49,7 @@ public class Doc {
     }
 
     public static void endNumLet(String doc) {
-        System.out.println(doc. toString().lastIndexOf("1a-2b"));
+        System.out.println(doc. toString().lastIndexOf("1a2b"));
     }
 }
 
