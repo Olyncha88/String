@@ -8,7 +8,7 @@ public class Main {
       Doc.replSymb("2020-apr-2020-fin-2f1g");
       Doc.getLetDelimit("2020-apr-2020-fin-2f1g");
       Doc.getLetUpp("2020-apr-2020-fin-2f1g");
-      Doc.containsLet("2020-apr-2020-fin-2f1g");
+      Doc.containsLet("ABC0-apr-2020-fin-2f1g");
       Doc.beginsNum("2020-apr-2020-fin-2f1g");
       Doc.endNumLet("2020-apr-2020-fin-2f1g");
     }
