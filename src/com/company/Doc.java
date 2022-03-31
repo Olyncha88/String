@@ -44,7 +44,7 @@ public class Doc {
         }
     }
     public static void beginsNum(String doc) {
-        System.out.println(doc.indexOf(555));
+        System.out.println(doc.indexOf("555"));
     }
 
     public static void endNumLet(String doc) {
